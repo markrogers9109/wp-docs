@@ -1,0 +1,98 @@
+<h1>Users Screen</h1>
+
+<p>The Users Screen allows you to add, change, or delete your site's users. In addition, you can search for users, and you can make bulk changes and deletions to a selected group of users.</p>
+
+<h2>Users</h2>
+
+<h3>Table of Users</h3>
+
+<p>The main part of the Users Screen displays a table of all the users listed by Username order.</p>
+
+<p>The table of Users contains the following columns:</p>
+
+<ul>
+    <li>[ ] check box - Check this box if this user is to be affected by the Delete or Change User Role functions. There is also a checkbox in the column header to the left of the text Username--click that checkbox to cause all Users to be checked.</li>
+    <li>User Image - Avatar for this particular user.</li>
+    <li>Username - The login of the User. To edit a User, click on the Username link, the Users Your Profile Screen will then display for you to make the necessary changes. Also note that if you hover the mouse anywhere over the whole row for a particular user, the Edit and Delete links will be made visible for use. The current logged in user will not have the Delete link revealed.</li>
+    <li>Name - The first and last names of the User.</li>
+    <li>E-mail - The User's e-mail address.</li>
+    <li>Role - The Role assigned to that User.</li>
+    <li>Posts - The number of Posts written by that User. Click on that number to be directed to the Posts Screen to view or edit the Posts written by this User. All users have a unique identification number which WordPress uses to identify users internally. To determine that User ID, hover the mouse over the Posts number link, and the User ID (author=x) will be revealed as part of the URL in the browser status bar.</li>
+</ul>
+
+<h4>Sortable Columns</h4>
+
+<p>Some column headings, such as the Username, Name, and Email, can be clicked to sort the Table of Users in ascending or descending order. Hover over the column title, for example Username, to see the up-arrow or down-arrow. Click the heading to change the sort order.</p>
+
+<h4>Page Navigation</h4>
+
+<p>Under the Screen Options, the number of Users displayed per page is determined. If more than one page of Users is available, two double-arrow boxes to move to the first and last page are provided. Also two single-arrow boxes are displayed to move one page backward or forward. Finally, a box showing the current page number can be used to enter a page to directly display.</p>
+
+<h4>Screen Options</h4>
+
+<p>Under the top shaded area is the Screen Options hanging tab. Clicking on that hanging tab reveals the Show on screen choices of E-Mail, Role, and Posts checkboxes. Unchecking a box causes a column to be not shown in the Table below, and, of course, checking a box causes that column to be displayed in the Table below.</p>
+
+<h5>Search</h5>
+
+<p>At the top right of the User Table is a search box to help find users. Enter a string in the box and click the "Search users" box. Any User that contains the search string in the Username, Name, E-mail, or Website fields will be displayed, by Role. You can then add, change, and delete those users. A "No matching users were found! " message will be displayed if no Users can be found that match the search string you entered.</p>
+
+<h4>Filtering Options</h4>
+
+<p>Just above the User Table, are filter links to All Users, and to links to Users belonging to the each of the various Roles. Clicking on one of those links, say Subscribers, will display all the Users assigned the Subscriber Role. Click on All Users to again display all the Users in the table.</p>
+
+<h4>Using Selection, Actions, and Apply</h4>
+
+<h5>Selection</h5>
+
+<p>This Screen allows Bulk Actions to be performed on one or more Users selected in the Table. For Bulk Actions to be performed on multiple Users at once, those users must be first selected via one of these methods:</p>
+
+<ul>
+    <li>Select one User at a time - To select a User, the checkbox to the left of the User entry must be checked (clicked). It is possible to keep selecting more Users by checking their respective checkbox.</li>
+    <li>Select all Users in given Table - All Users in a given table can be selected by checking the checkbox in the Table's title, or footer bar. Of course, unchecking the header or footer title bar checkbox will cause all entries in that Table to be unchecked (NOT selected).</li>
+    <li>Reverse Selection - A Reverse Selection means checked items become unchecked, and unchecked items become checked. A Reverse Selection is accomplished by holding the Shift key on the keyboard and clicking the header or footer title bar checkbox.</li>
+</ul>
+
+<h5>Actions</h5>
+
+<p>Actions describe the process to be performed on particular Users. There are two styles of Actions that will be referred to as Bulk Actions and Immediate Actions. The follow describes these Actions:</p>
+
+<ul>
+    <li>Bulk Actions - These Actions can be performed on one, or more Users, at one time, if those Users have been previously selected. Bulk Actions are available, when appropriate, as choices in the Bulk Actions pulldown box, above the Table. The only Bulk Action allowed is Delete.</li>
+    <li>Immediate Actions - Immediate Actions are performed immediately, on an individual User. Hovering the mouse cursor over the User row reveals the Edit or Delete options under the Username column, in that User row. Clicking on a Username Name will also initiate the Edit Action.</li>
+</ul>
+
+<p>The available Actions are described below:</p>
+
+<ul>
+    <li>Edit - This Immediate Action displays the Edit User Screen. This Action can be initiated by click on the Username or clicking on the Edit option just below the Username. See the Edit Users section at the bottom of this article.</li>
+    <li>Delete- This Action deletes the User. See the Delete Users section for detail.</li>
+</ul>
+
+<h5>Apply</h5>
+
+<p>After one or more Users are selected, and after a Bulk Action is specified, the Apply button performs the given Action on the selected Users.</p>
+
+<ul>
+    <li>Apply - Click the Apply button to execute the Bulk Action, specified in the Actions pulldown, on the selected Users. Remember, prior to executing Actions, one or more Users must be selected, as described before.</li>
+</ul>
+
+<h4>Delete Users</h4>
+
+<p>Available as both Bulk Action and an Immediate Action, the delete user capability is allowed on all but the current user (you cannot delete the user doing the deletion!). After the Delete action has begun, a Delete Users Screen will display with a message "You have specified these users for deletion:" with a list of the Users you are deleting with the following question:</p>
+
+<p><strong>What should be done with posts and links owned by this user?</strong></p>
+
+<ul>
+    <li>Delete all posts and links - Check this radio button and click the Confirm Deletion button to delete the User(s) as well as any posts and links attributed to those User(s).</li>
+    <li>Attribute all posts and links to - Check this radio button, select a User from the adjacent drop-down box, and click the Confirm Deletion button to attribute all the posts and links for the Deleted User(s) to the User you selected in the pulldown box.</li>
+</ul>
+
+<p>Upon successful completion of the deletion process, a splash message box near the top of the Screen will display "x user(s) deleted".</p>
+
+<h3>Change Roles to</h3>
+
+<p>To the right of the Action pull-down box is the Change role to pull-down box. Select a Role, and all the Users that have been selected (checked), will be changed to that Role upon clicking the Change button. At successful completion of the changes, a splash box with the message "Changed roles." displays.</p>
+
+<h3>Edit Users</h3>
+
+<p>The Edit Users Screen is similar to editing your profile so see the Users Your Profile_Screen for all the details.</p>
